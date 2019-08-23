@@ -21,3 +21,8 @@ def register(request):
     else:
         form = RegisterForm()
     return render(request, 'register.html', {'form': form})
+def logoutpage(request):
+    return render(request,'logoutpage.html')
+
+def loginpage(request):
+    return render(request,'loginpage.html')

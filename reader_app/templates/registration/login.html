@@ -8,12 +8,12 @@
     <div class="col-md-4">
     </div>
     <div class="col-md-4 mx-auto ">
-        <h3>Login</h3>
-        <form method="post">
+        <h3 style="color:LightYellow">Login</h3>
+        <form method="post" style="color:Linen;">
           {% csrf_token %}
           <div class="form-group">
           {{ form|crispy}}
-          <button type="submit" class="btn btn-primary">Login</button>
+          <button type="submit" class="btn btn-primary" style="center">Login</button>
           </div>
         </form>
     </div>

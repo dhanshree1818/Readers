@@ -1,6 +1,6 @@
 from django.contrib.auth import login, authenticate
 from django.http import HttpResponse
-from django.shortcuts import render, redirect, render_to_response
+from django.shortcuts import render, redirect
 from django.template import RequestContext
 
 from reader_app import forms
